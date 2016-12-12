@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+html, body {
+  font-family: 'Merriweather', serif;	
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: white;
+}
+
+.wrapper{
+  min-height:100%;
+	position:relative;
+}
+
+.footer{
+	background-color: lightgrey;
+
+	position: absolute;
+	right:0;
+ 	bottom: 0;
+ 	left: 0;
+
+  min-width: 750px;
+  height: 45px;
+}

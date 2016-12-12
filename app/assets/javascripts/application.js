@@ -13,4 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= require_tree
+
+
+// for the simple side menu
+$(document).ready(function() {
+  $('#simple-menu').sidr();
+});

@@ -1,3 +1,56 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.icon-menu{
+  width:25px;
+  margin: 50px 0 0 50px;
+}
+
+#icon-close{
+  float:right;
+  margin:10px;
+}
+
+.home-main{
+	background-image: url("https://photos-5.dropbox.com/t/2/AABm-sr4xYXxcwMEvGKK6Gc8074SEksAP-jZM7bkZXQyxg/12/630558450/jpeg/32x32/1/_/1/2/memories_hd.jpg/ELGQx44FGAsgAigC/Zh3seUIjViJKkWxGK5Mt930GP7D-srTj8V4ODAZZ7WM?size=2048x1536&size_mode=3");
+  background-position:center;
+	background-size:cover;
+  width: 100%;
+  height: 600px;
+  
+  color:white;
+}
+.home-main h1{
+  text-align: right;
+}
+
+.home-main #learnMoreMain{
+  float:right;
+  margin-right:125px;
+}
+
+.home-supporting{
+  text-align: center;
+  
+}
+
+.home-secondary{
+  
+  
+}
+
+.home-discovery{
+text-align: center;
+  
+}
+
+
+
+.about-main{
+  
+}
+
+
+.about-supporting{
+  
+}
