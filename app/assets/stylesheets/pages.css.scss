@@ -1,9 +1,11 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 .icon-menu{
   width:25px;
-  margin: 50px 0 0 50px;
+  margin: 50px 0 0 25px;
+  float:left;
 }
 
 #icon-close{
@@ -22,6 +24,7 @@
 }
 .home-main h1{
   text-align: right;
+  padding-top:75px;
 }
 
 .home-main #learnMoreMain{
@@ -31,26 +34,81 @@
 
 .home-supporting{
   text-align: center;
-  
+  width: 100%;
+  height: 200px;
+  margin: auto;
 }
-
+.home-supporting h2,h3{
+  padding:15px
+}
 .home-secondary{
+  	background-image: url("https://photos-4.dropbox.com/t/2/AACtJtak-l4NjIvzybW3L3cv73cEo8M_bV437_teryOoQg/12/630558450/jpeg/32x32/1/_/1/2/cool%20lake.jpg/ELGQx44FGAwgAigC/Bb045CSYoh7ZO4bXPI5I7WnEsuFqDlDpstJPtpHy53g?size=2048x1536&size_mode=3");
+  background-position:center;
+	background-size:cover;
+  width: 100%;
+  height: 400px;
   
   
 }
 
 .home-discovery{
-text-align: center;
-  
+  text-align: center;
+  width: 100%;
+  height: 200px;
+  margin: auto;
 }
+
+
+
+
 
 
 
 .about-main{
+  background-image: url("https://photos-4.dropbox.com/t/2/AADfDU-m3FWjlKDxkxtKzrkMlrh7ShjVeZGw3TH9xeJdEw/12/630558450/jpeg/32x32/1/_/1/2/concert-audience.jpg/ELGQx44FGBUgAigC/fvBohFSfCVx4dYp94dVFSPCeoiTjxZiQu4muSuZjfG8?size=2048x1536&size_mode=3");
+  background-position-y: top;
+	background-size:cover;
+  width: 100%;
+  height: 600px;
   
+	text-align:center;
+}
+
+.about-main h1{
+  text-align: center;
+  text-shadow: 0 0 white;
+  padding-top:75px
 }
 
 
+
 .about-supporting{
+  text-align:center
+    
+}
+
+
+
+
+
+
+
+
+
+.thanks-main{
+  background-image: url("https://photos-4.dropbox.com/t/2/AABCO9wmcbEUH73czAsMoxW4fpd1Rw3RToq8ZlGfsTOiZw/12/630558450/jpeg/32x32/1/_/1/2/6931895-yellow-sand-beach.jpg/ELGQx44FGA4gAigC/btKyT0tPVYVGcklLustis-2lsS_j-2c0gQpDFKlGoUE?size=2048x1536&size_mode=3");
+  background-position:center;
+	background-size:cover;
+  width: 100%;
+  height: 600px;
+  
+}
+
+.new-main{
+    background-image: url("https://photos-6.dropbox.com/t/2/AABFXasfSAfaEq4yQmZbxZtd16XXEyVJCfem4wqJvRa4Gw/12/630558450/jpeg/32x32/1/_/1/2/airport-transfer-car-driver.jpg/ELGQx44FGBAgAigC/9it681L24c4Mncg9ZUy7_fzINVdxiazRoZWiWN9CQuo?size=2048x1536&size_mode=3");
+  background-position:center;
+	background-size:cover;
+  width: 100%;
+  height: 600px;
   
 }
