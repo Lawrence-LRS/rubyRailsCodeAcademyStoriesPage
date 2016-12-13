@@ -17,6 +17,7 @@
 
 
 // for the simple side menu
+
 $(document).ready(function() {
   $('#simple-menu').sidr();
 });
