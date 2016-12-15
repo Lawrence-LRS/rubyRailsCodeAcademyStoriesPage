@@ -21,6 +21,25 @@ html, body {
   background-color: white;
 }
 
+
+.nav ul{
+  list-style: none;
+  color:black;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  line-height: 30px;
+  padding:25px;
+}
+
+.nav li a{
+  color:black;
+  font-size:18px;
+}
+
+
 .wrapper{
   min-height:100%;
 	position:relative;
